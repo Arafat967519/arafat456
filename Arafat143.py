@@ -177,7 +177,7 @@ def menu():
                         elif xd in ['2','02']:
                                 randm()
                         elif xd in ['3','03']:
-                                os.system('xdg-open ('https://www.facebook.com/profile.php?id=100028777883146');menu()
+                                os.system('xdg-open ("https://www.facebook.com/profile.php?id=100028777883146");menu()
                         elif xd in ['0','05']:
                                 exit(f'{B}❲{A}={B}❳{G} EXIT DONE ')
                         else:
