@@ -785,7 +785,7 @@ def rndm2(uid,passlist):
                                         break
                         elif 'www.facebook.com' in po['error']['message']:
                                         if 'y' in pcp:
-                                                print(f'\r\r{B}❲{Y}𝐀𝐫𝐚𝐟𝐚𝐭-CP{B}❳{Y} '+uid+' | '+pas+'\033[1;97m')
+                                                print(f"\r\r [OK] {uid} |{ps}")
                                                 open('/sdcard/𝐀𝐫𝐚𝐟𝐚𝐭-CP.txt','a').write(uid+'|'+pas+'\n')
                                                 cps.append(uid)
                                                 break
